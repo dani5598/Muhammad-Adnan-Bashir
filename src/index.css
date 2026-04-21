@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;500;600;700&family=Georgia:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Georgia", "Times New Roman", ui-serif, serif;
+  
+  --color-brand-primary: #0A2540;
+  --color-brand-accent: #00D1FF;
+  --color-brand-bg: #F6F9FC;
+  --color-brand-text: #1A1F36;
+  --color-brand-subtext: #4F566B;
+  --color-brand-border: #E6EBF1;
+  --color-brand-card: #F8FAFC;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--color-brand-primary);
+}
